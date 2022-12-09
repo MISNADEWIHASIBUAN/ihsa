@@ -1,0 +1,893 @@
+/* login  */
+
+.login-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.login-overlay-login {
+  width: 100%;
+  height: 670px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.login-buat-akun {
+  top: 0px;
+  left: 572px;
+  width: 550px;
+  height: 670px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 0 10px 10px 0;
+  background-color: #002931;
+}
+.login-b-a-c-k-g-r-o-u-n-d {
+  top: 750px;
+  left: 150px;
+  width: 1007.85888671875px;
+  height: 649.28955078125px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.login-rectangle38 {
+  top: 0px;
+  left: 423.8796134066797px;
+  width: 185px;
+  height: 28px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 100px;
+}
+.login-rectangle39 {
+  top: -52.2785079313212px;
+  left: 428.1745350256824px;
+  width: 185px;
+  height: 28px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 100px;
+}
+.login-rectangle40 {
+  top: -43.18034868357472px;
+  left: 484.27469037325864px;
+  width: 185px;
+  height: 28px;
+  position: absolute;
+}
+.login-rectangle381 {
+  top: -626.6278313024122px;
+  left: 0px;
+  width: 574px;
+  height: 87px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 100px;
+}
+.login-rectangle391 {
+  top: -617.9364255704604px;
+  left: 162.525197832274px;
+  width: 574px;
+  height: 87px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 100px;
+}
+.login-rectangle401 {
+  top: -443.13287763995504px;
+  left: 139.27472619564924px;
+  width: 574px;
+  height: 87px;
+  position: absolute;
+}
+.login-text {
+  top: 201px;
+  left: 218px;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 130%;
+  color: #FFFFFF;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: center;
+  line-height: 129.99999523162842%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.login-name {
+  top: 310px;
+  left: 125px;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+
+.auth-input {
+  width: 300px;
+  height: 40px;
+  position: relative;
+  padding-left: 37.5px;
+}
+
+.login-rectangle37 {
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 40px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+.login-container  input::placeholder, .masuk-container input::placeholder {
+  /* top: 10px;
+  left: 39px; */
+  color: #E0E0E0;
+  height: auto;
+  position: absolute;
+  /* align-self: auto;
+  text-align: left;
+  line-height: 141.99999570846558%;
+  margin-right: 0;
+  margin-bottom: 0; */
+}
+.login-user {
+  top: 10px;
+  left: 8px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.login-katasandi {
+  top: 370px;
+  left: 125px;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.login-rectangle371 {
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 40px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 5px;
+}
+.login-text04 {
+  top: 10px;
+  left: 39px;
+  color: #E0E0E0;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 141.99999570846558%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.login-key {
+  top: 10px;
+  left: 8px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.login-pilihan-buat-akun {
+  top: 262px;
+  left: 210px;
+  width: 130px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.login-facebook {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.login-facebook1 {
+  top: 1px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border-color: transparent;
+}
+.login-facebook2 {
+  top: 6px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.login-google {
+  top: 0px;
+  left: 50px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.login-google1 {
+  top: 1px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border-color: transparent;
+}
+.login-google-alt {
+  top: 6px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.login-lingked-in {
+  top: 0px;
+  left: 100px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.login-google2 {
+  top: 1px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border-color: transparent;
+}
+.login-linkedin {
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.login-button {
+  top: 451px;
+  left: 196px;
+  width: 160px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: white;
+  border-radius: 20px;
+}
+.login-rectangle36 {
+  top: 0px;
+  left: 0px;
+  width: 160px;
+  height: 40px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+}
+.login-text06 {
+  top: 8px;
+  left: 52px;
+  color: #FFFFFF;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: center;
+  line-height: 150%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.login-text08 {
+  top: 425px;
+  left: 179px;
+  color: rgba(161, 161, 161, 1);
+  font-size: 12px;
+  /* width: 127px; */
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: center;
+  line-height: 129.99999523162842%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.login-text09 {
+  color: #A1A1A1;
+}
+.login-text10 {
+  top: 425px;
+  left: 311px;
+  color: #FFFFFF;
+  font-size: 12px;
+  width: 40px;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: center;
+  line-height: 129.99999523162842%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.welcome-text {
+  top: 275px;
+  left: 190px;
+  color: #002931;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 130%;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 129.99999523162842%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.logohomestaytransparent {
+  top: 53px;
+  left: 187px;
+  width: 610px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.logohomestaytransparent2 {
+  width: 610px;
+  height: 220px;
+  position: relative;
+  border-color: transparent;
+}
+.lorem-text {
+  top: 332px;
+  left: 49px;
+  color: rgba(0, 0, 0, 1);
+  width: 446px;
+  height: auto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  /* or 16px */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  position: absolute;
+  align-self: auto;
+  text-align: center;
+  line-height: 129.99999523162842%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+/* masuk */
+
+.masuk-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.masuk-overlay-daftar {
+  width: 100%;
+  height: 670px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.masuk-buat-akun {
+  top: 0px;
+  left: 572px;
+  width: 550px;
+  height: 670px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 0 10px 10px 0;
+  background-color: #002931;
+}
+.masuk-b-a-c-k-g-r-o-u-n-d {
+  top: 750px;
+  left: 150px;
+  width: 1007.85888671875px;
+  height: 649.28955078125px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.masuk-rectangle38 {
+  top: 0px;
+  left: 423.8796134066797px;
+  width: 185px;
+  height: 28px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 100px;
+}
+.masuk-rectangle39 {
+  top: -52.2785079313212px;
+  left: 428.1745350256824px;
+  width: 185px;
+  height: 28px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 100px;
+}
+.masuk-rectangle40 {
+  top: -43.18034868357472px;
+  left: 484.27469037325864px;
+  width: 185px;
+  height: 28px;
+  position: absolute;
+}
+.masuk-rectangle381 {
+  top: -626.6278313024122px;
+  left: 0px;
+  width: 574px;
+  height: 87px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 100px;
+}
+.masuk-rectangle391 {
+  top: -617.9364255704604px;
+  left: 162.525197832274px;
+  width: 574px;
+  height: 87px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 100px;
+}
+.masuk-rectangle401 {
+  top: -443.13287763995504px;
+  left: 139.27472619564924px;
+  width: 574px;
+  height: 87px;
+  position: absolute;
+}
+.masuk-text {
+  top: 169px;
+  left: 186px;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 130%;
+  color: #FFFFFF;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 129.99999523162842%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.masuk-name {
+  top: 278px;
+  left: 125px;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.masuk-rectangle37 {
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 40px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 5px;
+}
+.masuk-text02 {
+  top: 10px;
+  left: 39px;
+  color: #E0E0E0;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 141.99999570846558%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.masuk-user {
+  top: 10px;
+  left: 8px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.masuk-email {
+  top: 335px;
+  left: 125px;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.masuk-rectangle371 {
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 40px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 5px;
+}
+.masuk-text04 {
+  top: 10px;
+  left: 39px;
+  color: #E0E0E0;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 141.99999570846558%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.masuk-gmail {
+  top: 10px;
+  left: 8px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.masuk-katasandi {
+  top: 392px;
+  left: 125px;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.masuk-rectangle372 {
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 40px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 5px;
+}
+.masuk-text06 {
+  top: 10px;
+  left: 39px;
+  color: #E0E0E0;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 141.99999570846558%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.masuk-key {
+  top: 10px;
+  left: 8px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.masuk-pilihan-buat-akun {
+  top: 230px;
+  left: 210px;
+  width: 130px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.masuk-facebook {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.masuk-facebook1 {
+  top: 1px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border-color: transparent;
+}
+.masuk-facebook2 {
+  top: 6px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.masuk-google {
+  top: 0px;
+  left: 50px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.masuk-google1 {
+  top: 1px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border-color: transparent;
+}
+.masuk-google-alt {
+  top: 6px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.masuk-lingked-in {
+  top: 0px;
+  left: 100px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.masuk-google2 {
+  top: 1px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border-color: transparent;
+}
+.masuk-linkedin {
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.masuk-button {
+  top: 462px;
+  left: 195px;
+  width: 160px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  border-color: white;
+  border-radius: 20px;
+}
+.masuk-button:hover, .login-button:hover {
+  border-color: #002931;
+  background-color: white;
+}
+.masuk-button1:hover {
+  border-color: white;
+  background-color: #002931;
+}
+.btn-text {
+  top: 8px;
+  left: 52px;
+  color: #FFFFFF;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: center;
+  line-height: 150%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.btn-text:hover {
+  color: #002931;
+}
+.btn-text1 {
+  top: 8px;
+  left: 52px;
+  color: #002931;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: center;
+  line-height: 150%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.btn-text1:hover {
+  color: white; 
+}
+.masuk-rectangle36 {
+  top: 0px;
+  left: 0px;
+  width: 160px;
+  height: 40px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+}
+.masuk-text08 {
+  top: 8px;
+  left: 52px;
+  color: #FFFFFF;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 150%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.masuk-text10 {
+  top: 259px;
+  left: 190px;
+  color: #002931;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 129.99999523162842%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.masuk-logohomestaytransparent5 {
+  top: 53px;
+  left: 187px;
+  width: 610px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.masuk-logohomestaytransparent4 {
+  width: 610px;
+  height: 220px;
+  position: relative;
+  border-color: transparent;
+}
+.masuk-text12 {
+  top: 316px;
+  left: 49px;
+  color: rgba(0, 0, 0, 1);
+  width: 446px;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: center;
+  line-height: 129.99999523162842%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.masuk-button1 {
+  top: 406px;
+  left: 187px;
+  width: 160px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: #002931;
+  border-radius: 20px;
+}
+.masuk-rectangle361 {
+  top: 0px;
+  left: 0px;
+  width: 160px;
+  height: 40px;
+  position: absolute;
+  border-color: rgba(0, 41, 49, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+}
+.masuk-text14 {
+  top: 8px;
+  left: 52px;
+  color: #002931;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 150%;
+  margin-right: 0;
+  margin-bottom: 0;
+}

@@ -1,0 +1,846 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  /* width: 1440px; */
+}
+
+body {
+  background-color: #EFEFEF;
+  position: relative;
+  width: 100%;
+  height: auto;
+  /* width: 1440px;
+  height: 6912px; */
+  overflow-x: hidden;
+}
+
+#nav-home {
+  height: 107px;
+  padding: 0px 52px;
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: 775px;
+  /* min-height: 35rem; */
+  top: 100px;
+  padding: 8rem 0;
+  background: url("../img/bg-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead img {
+  height: auto;
+}
+
+.masthead .button-daftar {
+  width: fit-content;
+  font-size: 15px;
+  background: linear-gradient(92.98deg, rgba(255, 255, 255, 0.497) 21.8%, rgba(255, 255, 255, 0) 95.36%);
+  backdrop-filter: blur(2px);
+  border-radius: 10px;
+}
+
+.masthead h2 {
+  line-height: 48px;
+}
+
+.masthead #line {
+  position: relative;
+  margin-top: 7rem;
+}
+
+.masthead .line-1 {
+  position: absolute;
+  width: 1190px;
+  border: 6px solid #E0E0E0;
+}
+
+.masthead .line-2 {
+  position: absolute;
+  width: 130px;
+  border: 6px solid #0CDBC6;
+}
+
+.tentang-section {
+  margin-top: 180px;
+  margin-bottom: 50px;
+}
+
+.tentang-section h2 {
+  margin-bottom: 96px;
+}
+
+.tentang-section .img-logo {
+  position: absolute; 
+  bottom: -35px; 
+  left: 78px; 
+  opacity: 0.8;
+}
+
+.tentang-section .text-img-logo {
+  display: none;
+}
+
+.quantity-section {
+  position: relative;
+  background: #002931;
+  color: white;
+  height: 173px;
+  margin-top: 100px;
+}
+
+.quantity-section .line {
+  height: 173px;
+  border-left: 1px solid #0CDBC6;
+}
+
+.quantity-section h3 {
+  font-size: 60px;
+}
+
+.quantity-section h4 {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.organization-section {
+  margin-top: 75px; 
+  margin-bottom: 120px; 
+  position: relative;
+}
+
+.organization-section .img-flex-organization {
+  position: absolute; align-self: center; width: 577px; height: 447px; left: 368px; top: -30px; overflow: hidden;
+}
+
+.profile-section {
+  overflow: hidden;
+}
+
+.profile-section .col-lg-8 {
+  padding: 10px;
+}
+
+.profile-section .img-profile {
+  position: absolute;
+  width: 355px;
+  height: 355px;
+  bottom: -20px;
+  left: 55px;
+}
+
+.p-overflow {
+  line-height: 150%; 
+  /* width: 765px;  */
+  height: 175px; 
+  overflow-y: scroll;
+}
+
+.p-overflow::-webkit-scrollbar {
+  width: 25px;
+  background-color:  #C4C4C4;
+  border-radius: 1px;
+  padding: 1px;
+}
+
+/* Track */
+.p-overflow::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #C4C4C4; 
+}
+ 
+/* Handle */
+.p-overflow::-webkit-scrollbar-thumb {
+  background: #002931; 
+  border: 4px solid #C4C4C4;
+  content: url();
+}
+
+.event-section {
+  margin-top: 25px;
+}
+
+.event-section .card {
+  position: relative;
+  background: #002931;
+  color: white;
+}
+
+.event-section .event-capt {
+  padding-left: 20px
+}
+
+.event-section .card hr {
+  border: 1px solid #4EF6E5;
+}
+
+.event-section .card-line {
+  width: 100%;
+}
+
+.event-section .card-line1 {
+  position: absolute;
+  top: 20px;
+  z-index: 1px;
+}
+
+.event-section .card-line2 {
+  position: absolute;
+  bottom: 5px;
+  z-index: 1px;
+}
+
+.event-section .card .img-title {
+  width: 255px;
+  height: 57px;
+  left: 0px;
+  bottom: 0px;
+
+  background: #002931;
+  border-radius: 0px 10px;
+}
+
+.event-section .card .img-title svg {
+  position: relative;
+  bottom: 7.5px;
+}
+
+.event-section .p {
+  width: 600px;
+  padding-top: 35px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%; 
+  letter-spacing: 0.0168em;
+}
+
+.event-section .event-capt {
+  font-weight: 700;
+}
+
+.event-section .img-eclipse {
+  position: absolute;
+  top: 120px;
+  right: 15px;
+}
+
+.title-capt {
+  color: #A1A1A1; 
+  font-size: 14px;
+}
+
+.img-fav-capt {
+  position: absolute;
+  width: 132px; 
+  padding: 2px;
+  bottom: -8px; 
+  right: 20px; 
+  font-style: normal; 
+  font-weight: 700; 
+  font-size: 20px; 
+  line-height: 30px; 
+  text-align: start; 
+  border-radius: 10px 0px;
+}
+
+.text-see-all {
+  font-weight: 500; font-size: 20px; line-height: 30px; text-align: end;
+}
+
+.text-see-all a {
+  text-decoration: none; 
+  color: #2B4255;
+}
+
+.recommend-section .rate-review {
+  font-size: 9px; 
+  font-weight: 400; 
+  line-height: 12px;
+}
+
+.recommend-section .review-group {
+  align-items: center; position: relative;
+}
+
+.recommend-section .review-group span {
+  padding-right: 8px;
+}
+
+.recommend-section .review-group img {
+  width: 11px;
+  height: 11px;
+}
+
+.recommend-section .review-group .rev-img-2 {
+  position: absolute; bottom: 0px; right: 7px;
+}
+
+#berita .card {
+  width: 1000px;
+}
+
+#berita .card .card-title {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+#berita .card .card-text {
+  font-size: 13px;
+}
+
+.supportedby-section img {
+  width: 1439px; 
+  height: 239px;
+}
+
+.contact-section input {
+  width: 240px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #002931;
+}
+
+.contact-section input::placeholder {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #C0C0C0;
+}
+
+.contact-section input[name="messages"] {
+  width: 515px;
+}
+
+.contact-section .input-name, .input-first-name {
+  margin-bottom: 20px;
+}
+
+.contact-section #border {
+  width: 515px; 
+  color: #002931;
+  border-bottom: 1px solid #002931; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* position: absolute; */
+}
+
+.contact-section .row-contact1 {
+  margin-bottom: 35px;
+}
+
+.contact-section .btn {
+  width: 515px;
+  height: 45px;
+  background: #002931; 
+  font-size: 13px; 
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.footer-section {
+  background: #002931;
+}
+
+@media (max-width: 420px) {
+  body {
+    background-color: white;
+    /* overflow: hidden; */
+    text-align: center;
+  }
+
+  .masthead {
+    width: 100%;
+    height: 82px;
+    top: 65px;
+    background-position: top left;
+  }
+  
+  .masthead img {
+    height: 24px;
+  }
+
+  .masthead h2 {
+    line-height: 150%;
+  }
+
+  .masthead .button-daftar {
+    background: linear-gradient(87.88deg, rgba(255, 255, 255, 0.497) 25.69%, rgba(255, 255, 255, 0) 125.01%);
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+
+  .masthead .button-daftar a {
+    font-size: 10px;
+  }
+
+  .masthead #line {
+    display: none;
+  }
+
+  .tentang-section {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    overflow: hidden;
+  }
+
+  .tentang-section h2 {
+    margin-bottom: 25px;
+  }
+
+  .tentang-section .img-logo {
+    overflow: hidden;
+
+    position: absolute;
+    width: 610px;
+    height: 220px;
+    left: 115px;
+    top: 65px;
+  }
+
+  .tentang-section .text-img-logo {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    left: 120px;
+    top: 115px;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 158%;
+    letter-spacing: 0.15em;
+    text-align: start;
+    color: transparent;
+    -webkit-text-stroke: 0.7px #002931;
+  }
+
+  .tentang-section h3 {
+    margin-top: 10px;
+  }
+
+  .quantity-section {
+    height: auto;
+  }
+
+  .quantity-section .text-quantity {
+    padding: 75px 0px 20px 0px;
+  }
+
+  .quantity-section .line {
+    padding: 2px;
+    height: 0px;
+    width: 100%;
+    border-bottom: 1px solid #0CDBC6;
+  }
+
+  .quantity-section .last-col {
+    margin-bottom: 50px;
+  }
+
+  .organization-section img {
+    display: none;
+  }
+
+  .organization-section .col-lg-6  {
+    margin: 35px auto;
+  }
+
+  .profile-section .bg-profile {
+    display: none;
+  }
+
+  .profile-section .img-profile {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    /* bottom: -20px; */
+    left: 0px;
+    margin-bottom: 25px;
+  }
+
+  .p-overflow {
+    line-height: 150%; 
+    /* width: 286px;  */
+    height: 261px; overflow-y: scroll;
+  }
+
+  .p-overflow::-webkit-scrollbar {
+    width: 25px;
+    background-color:  #C4C4C4;
+    border-radius: 1px;
+    padding: 1px;
+  }
+
+  /* Track */
+  .p-overflow::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #C4C4C4; 
+  }
+  
+  /* Handle */
+  .p-overflow::-webkit-scrollbar-thumb {
+    background: #002931; 
+    border: 4px solid #C4C4C4;
+    content: url();
+  }
+
+  .event-section {
+    margin-top: 5px;
+  }
+
+  .event-section .card {
+    height: 93.43px;
+    overflow: hidden;
+    text-align: start;
+  }
+
+  .event-section .card-line1 {
+    top: 5px;
+  }
+
+  .event-section .card-line2 {
+    bottom: -2px;
+  }
+
+  .event-section .img-event {
+    padding: 0px;
+    margin: 0px;
+    width: 152px;
+  }
+
+  .event-section .card .img-title {
+    width: 70px;
+    height: 15px;
+    left: 0px;
+    bottom: 5px;
+  }
+
+  .event-section .card .img-title svg {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    width: 5px;
+    height: 5px;
+  }
+
+  .event-section .event-capt {
+    position: absolute;
+    top: -2px;
+    left: 17.5px;
+    padding-left: 2px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+  }
+
+  .event-section .card-title {
+    height: 13px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 142%;
+    letter-spacing: 0.005em;
+  }
+
+  .event-section .h5 {
+    height: 7px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    letter-spacing: 0.0168em;
+  }
+
+  .event-section .p {
+    width: 180px;
+    font-weight: 400;
+    font-size: 4px;
+    line-height: 130%;
+    padding-top: 0px;
+
+    letter-spacing: 0.03em;
+  }
+
+  .event-section .img-eclipse {
+    position: absolute;
+    height: 35px;
+    top: 32px;
+    right: 5px;
+  }
+
+  .capt {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 138%;
+  }
+
+  .capt2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 138%;
+  }
+
+  .title-capt {
+    font-size: 11px;
+  }
+
+  .img-fav-capt {
+    padding: 2px 5px;
+  }
+
+  .recommend-section {
+    text-align: start;
+  }
+
+  .recommend-section .card-img-top {
+    width: 100px;
+  }
+
+  .recommend-section .card {
+    width: 100px
+  }
+
+  .recommend-section .card-body {
+    padding: 5px;
+  }
+
+  .recommend-section .card-title {
+    font-size: 6px;
+  }
+
+  .recommend-section .card-text {
+    font-size: 3px;
+  }
+
+  .recommend-section .card-text svg {
+    width: 3px;
+    height: 3px;
+  }
+
+  .recommend-section .rate-review {
+    font-size: 4px; 
+    line-height: 5px;
+    padding-right: 2px;
+  }
+
+  .recommend-section .rate-review p {
+    margin-bottom: 2px;
+  }
+
+  .recommend-section .rate-review svg {
+    width: 4px;
+    height: 4px;
+    margin-bottom: 1px;
+  }
+
+  .recommend-section .review-group span {
+    font-size: 3px;
+    padding-right: 2px;
+  }
+
+  .recommend-section .review-group img {
+    width: 4.25px;
+    height: 4.25px;
+  }
+
+  .recommend-section .review-group .rev-img-2 {
+    position: absolute; bottom: 1px; right: 3px;
+  }
+
+  #berita .card {
+    width: 300px;
+  }
+
+  #berita .img-berita {
+    width: 280px;
+  }
+
+  #berita .card .card-title {
+    font-size: 8px;
+    margin-top: 7.5px;
+    margin-bottom: 15px;
+  }
+
+  #berita .card .card-text {
+    font-size: 8px;
+  }
+
+  .place-section img {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+  }
+
+  .text-see-all {
+    font-size: 15px;
+  }
+
+  .supportedby-section img {
+    width: 390px;
+    height: 78px;
+  }
+  
+  .gallery-section .row {
+    width: 307px;
+    height: 320px;
+  }
+
+  .gallery-section img {
+    border-radius: 5px;
+  }
+
+  .gallery-section .col-img-1 {
+    width: 139px;
+    height: 154px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .gallery-section .col-img-2 {
+    height: 154px;
+    width: 154px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .gallery-section .col-img-2 img {
+    width: 154px;
+    height: 62px;
+    padding: 0px 5px;
+    margin: 0px;
+  }
+
+  .gallery-section .col-img-2 img:first-of-type {
+    margin-bottom: 15px;
+  }
+
+  .gallery-section .col-img-3 {
+    width: 65px;
+    height: 154px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .gallery-section .col-img-3 img {
+    width: 65px;
+    height: 154px;
+    /* padding: 0px 5px 10px 5px; */
+  }
+
+  .gallery-section .col-img-4 {
+    height: 154px;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .gallery-section .col-img-4 img {
+    width: 65px;
+    height: 72px;
+  }
+
+  .gallery-section .col-img-4 img:first-of-type {
+    margin-bottom: 10px;
+  }
+
+  .gallery-section .col-img-5 {
+    width: 154px;
+    height: 154px;
+    margin: 0px;
+    padding: 0px 5px;
+  }
+
+  .gallery-section .col-img-5 img {
+    width: 154px;
+    height: 154px;
+  }
+
+  .contact-section .row-contact1 {
+    margin-bottom: 0px;
+  }
+
+  .contact-section p {
+    text-align: start;
+    padding-left: 65px;
+  }
+
+  .contact-section .input-name, .input-phone, .input-first-name, .input-email, .input-messages {
+    margin-bottom: 20px;
+  }
+
+  .contact-section input[name="messages"] {
+    width: 240px;
+  }
+
+  .contact-section #border {
+    width: 240px; 
+    height: 0px;
+    margin: 25px auto;
+    border-bottom: 1px solid #002931; 
+    /* position: absolute; */
+  }
+
+  .contact-section .btn {
+    width: 240px;
+    height: 45px;
+  }
+
+  .footer-section p {
+    padding: 0px;
+  }
+} 
+
+@media (min-width: 1200px) {
+  .gallery-section .row {
+    width: 1150px; 
+    height: 278px;
+  }
+
+  .gallery-section .col-img-1 {
+    width: 278px;
+    height: 278px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .gallery-section .col-img-2 {
+    width: 278px;
+    height: 278px;
+    padding: 0px;
+    margin: 2px 0px;
+  }
+
+  .gallery-section .col-img-2 img {
+    height: 129px;
+  }
+
+  .gallery-section .col-img-3 {
+    width: 120px;
+    height: 278px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .gallery-section .col-img-4 {
+    width: 120px;
+    height: 278px;
+    padding: 0px;
+    margin: 2px 0px;
+  }
+
+  .gallery-section .col-img-4 img {
+    height: 129px;
+  }
+
+  .gallery-section .col-img-5 {
+    width: 282px;
+    height: 278px;
+    padding: 0px;
+    margin: 0px;
+  }
+}
